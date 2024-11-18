@@ -1,4 +1,4 @@
-[![Latest version](https://img.shields.io/crates/v/leaves-rs.svg)](https://crates.io/crates/leaves-rs)
+[![Latest version](https://img.shields.io/crates/v/leaves-rs.svg)](https://crates.io/crates/leaves-rs) ![License](https://img.shields.io/crates/l/leaves-rs.svg)
 
 # 🌿 leaves-rs
 
