@@ -21,34 +21,27 @@ leaves-rs = "0.0.1"
 
 ### 📖 Proposal API for LightGBM
 
-+ Import library:
++ Import library for exanple `Classifier`:
 
 ```rust
-use leaves::{LGBMClassifier, LGBMRegressor, LGBMRanker};
+use leaves::LGBMClassifier;
 ```
 
 + Load models:
 
 ```rust
-let model_classifier = LGBMClassifier::from_file("model.bin");
-let model_regressor = LGBMRegressor::from_file("model.bin");
-let model_ranker = LGBMRanker::from_file("model.bin");
+let model = LGBMClassifier::from_file("model.bin");
 ```
 
 + Predict models:
 
 ```rust
+// Create features vector.
 let features = vec![1.0, 2.0, 3.0];
 
-// Inference `Classifier`.
-let preds_classifier = model_classifier.predict(features);
-let preds_classifier_proba = model_classifier.predict_proba(features);
-
-// Inference `Regressor`.
-let preds_regressor = model_regressor.predict(features);
-
-// Inference `Ranker`.
-let preds_ranker = model_ranker.predict(features);
+// Inference model `Classifier`.
+let preds = model.predict(features);
+let preds_proba = model.predict_proba(features);
 ```
 
 ### 🤔 Supported framework
