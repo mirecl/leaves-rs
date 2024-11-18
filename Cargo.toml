@@ -10,7 +10,7 @@ license = "MIT"
 edition = "2021"
 
 [lib]
-name = "xml"
+name = "leaves"
 path = "src/lib.rs"
 
 [dependencies]
