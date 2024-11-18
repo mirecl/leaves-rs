@@ -5,9 +5,7 @@
 🌿 <ins>Leaves</ins> is a library implementing prediction code for GBRT (<ins>Gradient Boosting Regression Trees</ins>).\
 The goal of the project - make it possible to inference models from popular ML-frameworks on **Pure Rust** 🦀.
 
-### 📖 Proposal API for LightGBM
-
-+ Install library:
+### 📝 Install library
 
 Run the following Cargo command in your project directory:
 
@@ -20,6 +18,8 @@ Or add the following line to your **Cargo.toml**:
 ```toml
 leaves-rs = "0.0.1"
 ```
+
+### 📖 Proposal API for LightGBM
 
 + Import library:
 
