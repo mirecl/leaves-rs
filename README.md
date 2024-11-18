@@ -1,3 +1,5 @@
+[![Latest version](https://img.shields.io/crates/v/leaves-rs.svg)](https://crates.io/crates/leaves-rs)
+
 # 🌿 leaves-rs
 
 🌿 <ins>Leaves</ins> is a library implementing prediction code for GBRT (<ins>Gradient Boosting Regression Trees</ins>).\
