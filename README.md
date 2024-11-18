@@ -44,6 +44,8 @@ let preds = model.predict(features);
 let preds_proba = model.predict_proba(features);
 ```
 
+> The models `LGBMRegressor` and `LGBMRamker` will be executed in a similar manner.
+
 ### 🤔 Supported framework
 
 + [ ] LightGBM (<https://github.com/microsoft/LightGBM>)
