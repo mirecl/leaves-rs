@@ -1,8 +1,8 @@
-# leaves-rs
+# 🌿 leaves-rs
 
-<ins>Leaves</ins> is a library implementing prediction code for GBRT (Gradient Boosting Regression Trees). The goal of the project - make it possible to use models from popular ML-frameworks on **Pure** Rust 🚀.
+🌿 <ins>Leaves</ins> is a library implementing prediction code for GBRT (Gradient Boosting Regression Trees). The goal of the project - make it possible to use models from popular ML-frameworks on **Pure** Rust 🚀.
 
-### Proposal API
+### 📖 Proposal API
 
 + Import library:
 
@@ -23,7 +23,7 @@ let features = vec![1.0, 2.0, 3.0];
 let result = model.predict(features);
 ```
 
-### Supported framework
+### 🤔 Supported framework
 
 + [ ] LightGBM (<https://github.com/microsoft/LightGBM>)
 + [ ] XGBoost (<https://github.com/dmlc/xgboost>)
