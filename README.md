@@ -7,7 +7,7 @@ Pure Rust implementation of prediction part for GBRT (Gradient Boosting Regressi
 + Import library:
 
 ```rust
-use leaves::{LightGBM};
+use leaves::LightGBM;
 ```
 
 + Load model:
