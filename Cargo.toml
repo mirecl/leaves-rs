@@ -1,0 +1,16 @@
+[package]
+name = "leaves-rs"
+version = "0.0.1"
+description = "Pure Rust implementation of prediction part for GBRT (Gradient Boosting Regression Trees) models from popular frameworks 🚀"
+keywords = ["deep-learning", "inference", "gradient-boosting", "lightgbm"]
+repository = "https://github.com/mirecl/leaves-rs"
+authors = ["Grazhdankov Andrei <grazhdankov@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+edition = "2021"
+
+[lib]
+name = "xml"
+path = "src/lib.rs"
+
+[dependencies]
