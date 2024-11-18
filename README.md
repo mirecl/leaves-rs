@@ -7,6 +7,20 @@ The goal of the project - make it possible to inference models from popular ML-f
 
 ### 📖 Proposal API for LightGBM
 
++ Install library:
+
+Run the following Cargo command in your project directory:
+
+```sh
+cargo add leaves-rs
+```
+
+Or add the following line to your **Cargo.toml**:
+
+```toml
+leaves-rs = "0.0.1"
+```
+
 + Import library:
 
 ```rust
