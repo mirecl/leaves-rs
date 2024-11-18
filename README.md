@@ -21,7 +21,7 @@ leaves-rs = "0.0.1"
 
 ### 📖 Proposal API for LightGBM
 
-+ Import library for exanple `Classifier`:
++ Import library for example `LGBMClassifier`:
 
 ```rust
 use leaves::LGBMClassifier;
