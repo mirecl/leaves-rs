@@ -9,6 +9,7 @@ keywords = [
     "lightgbm",
     "xgboost",
     "catboost",
+    "scikit-learn",
     "machine-learning",
     "ai",
     "ml",

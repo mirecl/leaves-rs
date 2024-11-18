@@ -29,3 +29,4 @@ let result = model.predict(features);
 + [ ] LightGBM (<https://github.com/microsoft/LightGBM>)
 + [ ] XGBoost (<https://github.com/dmlc/xgboost>)
 + [ ] CatBoost (<https://github.com/catboost/catboost>)
++ [ ] Scikit-Learn (<https://github.com/scikit-learn/scikit-learn>)
