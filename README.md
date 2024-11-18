@@ -30,3 +30,7 @@ let result = model.predict(features);
 + [ ] XGBoost (<https://github.com/dmlc/xgboost>)
 + [ ] CatBoost (<https://github.com/catboost/catboost>)
 + [ ] Scikit-Learn (<https://github.com/scikit-learn/scikit-learn>)
+
+### 👏 Thanks
+
++ [@dmitryikh](https://github.com/dmitryikh) for <https://github.com/dmitryikh/leaves>
