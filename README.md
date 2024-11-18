@@ -8,20 +8,31 @@ The goal of the project - make it possible to use models from popular ML-framewo
 + Import library:
 
 ```rust
-use leaves::LightGBM;
+use leaves::{LGBMClassifier, LGBMRegressor, LGBMRanker};
 ```
 
-+ Load model:
++ Load models:
 
 ```rust
-let model = LightGBM::from_file("model.bin");
+let model_classifier = LGBMClassifier::from_file("model.bin");
+let model_regressor = LGBMRegressor::from_file("model.bin");
+let model_ranker = LGBMRanker::from_file("model.bin");
 ```
 
-+ Predict model:
++ Predict models:
 
 ```rust
 let features = vec![1.0, 2.0, 3.0];
-let result = model.predict(features);
+
+// Inference `Classifier`.
+let preds_classifier = model_classifier.predict(features);
+let preds_classifier_proba = model_classifier.predict_proba(features);
+
+// Inference `Regressor`.
+let preds_regressor = model_regressor.predict(features);
+
+// Inference `Ranker`.
+let preds_ranker = model_ranker.predict(features);
 ```
 
 ### 🤔 Supported framework
