@@ -1,6 +1,6 @@
 # 🌿 leaves-rs
 
-🌿 <ins>Leaves</ins> is a library implementing prediction code for GBRT (🚀 Gradient Boosting Regression Trees).\
+🌿 <ins>Leaves</ins> is a library implementing prediction code for GBRT (<ins>Gradient Boosting Regression Trees</ins>).\
 The goal of the project - make it possible to use models from popular ML-frameworks on **Pure Rust** 🦀.
 
 ### 📖 Proposal API
