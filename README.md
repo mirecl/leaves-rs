@@ -23,8 +23,8 @@ let features = vec![1.0, 2.0, 3.0];
 let result = model.predict(features);
 ```
 
-**Supported framework:**
+### Supported framework
 
-+ [ ] LightGBM
-+ [ ] XGBoost
-+ [ ] CatBoost
++ [ ] LightGBM (<https://github.com/microsoft/LightGBM>)
++ [ ] XGBoost (<https://github.com/dmlc/xgboost>)
++ [ ] CatBoost (<https://github.com/catboost/catboost>)
