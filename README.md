@@ -48,7 +48,7 @@ let preds_proba = model.predict_proba(features);
 
 ### 🤔 Supported framework
 
-+ [ ] LightGBM (<https://github.com/microsoft/LightGBM>)
++ [ ] LightGBM (<https://github.com/microsoft/LightGBM>) (in progress 🟡)
 + [ ] XGBoost (<https://github.com/dmlc/xgboost>)
 + [ ] CatBoost (<https://github.com/catboost/catboost>)
 + [ ] Scikit-Learn (<https://github.com/scikit-learn/scikit-learn>)
