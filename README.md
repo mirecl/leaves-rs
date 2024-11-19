@@ -55,6 +55,7 @@ let preds_proba = model.predict_proba(features);
 
 ### 🫵 Usage
 
++ [Regression](examples/regression)
 + [Titanic](examples/titanic)
 
 ### 👏 Thanks
