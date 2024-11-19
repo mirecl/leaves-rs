@@ -65,6 +65,3 @@ print(f"Preds `Probability`: {preds_proba}")
 
 # Save model
 joblib.dump(model, f"{path}/lightgbm.bin")
-
-
-

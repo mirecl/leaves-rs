@@ -53,6 +53,10 @@ let preds_proba = model.predict_proba(features);
 + [ ] CatBoost (<https://github.com/catboost/catboost>)
 + [ ] Scikit-Learn (<https://github.com/scikit-learn/scikit-learn>)
 
+### 🫵 Usage
+
++ [Titanic](examples/titanic)
+
 ### 👏 Thanks
 
 + [@dmitryikh](https://github.com/dmitryikh) for <https://github.com/dmitryikh/leaves>
