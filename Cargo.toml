@@ -1,7 +1,7 @@
 [package]
 name = "leaves-rs"
 version = "0.0.1"
-description = "Pure Rust implementation of prediction part for GBRT (Gradient Boosting Regression Trees) models from popular frameworks 🚀"
+description = "🌿 Leaves is a library implementing prediction code GBRT (Gradient Boosting Regression Trees) for inference models from popular ML-frameworks on Pure Rust 🦀"
 keywords = [
     "deep-learning",
     "inference",
