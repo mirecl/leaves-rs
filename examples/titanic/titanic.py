@@ -4,8 +4,6 @@ from lightgbm import LGBMClassifier
 import joblib
 import pathlib
 from catboost.datasets import titanic
-from sklearn.model_selection import train_test_split
-import pathlib
 
 path = pathlib.Path(__file__).parent.resolve()
 CATEGORY_FEATURES = ["PassengerId", "Pclass", "Name", "Sex", "SibSp", "Parch", "Ticket", "Cabin", "Embarked"]
