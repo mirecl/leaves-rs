@@ -3,6 +3,6 @@ catboost==1.2.7
 joblib==1.4.2
 numpy==2.0.2
 pandas==2.2.3
-scikit-learn==1.6.0
+scikit-learn==1.6.1
 black==24.10.0
 ruff==0.9.1
